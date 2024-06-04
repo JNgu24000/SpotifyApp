@@ -33,6 +33,4 @@ The first problem I had when starting this project was how to juggle two separat
 
 Another major problem I grappled with was how to have the data from the Spotify API be available for use for app.py, since I had to return multiple fields at once. To alleviate this, I put the elements into a list and had app.py pull from each element on the list (since each index refers to a certain piece of information).
 
-One of the major flaws of the project actually comes from utilizing the Genius Search API; no matter how many fields I closely enter into the function to return the lyrics, it will always return the incorrect URL, and this will persist even when utilizing parameters from the Spotify API. As of this writing I possess no idea how to make the result more accurate considering I always input the name of the song and the artist every time and only become successful less than half the time.
-
 If there was one way I would do to improve this project in general was probably take more time, since due to physical health reason I was unable to work on this project for as long as I would've been comfortable with, but am hopeful to apply this improvement on more projects.
